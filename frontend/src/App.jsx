@@ -18,6 +18,7 @@ import AllOrders from './pages/AllOrders.jsx'
 import AddBook from './pages/AddBook.jsx'
 import UpdateBook from './pages/UpdateBook.jsx'
 import AboutUs from './pages/AboutUs.jsx'
+import Contact from './pages/Contact.jsx'
 
 const App = () => {
   const dispatch = useDispatch()
@@ -35,6 +36,7 @@ const App = () => {
         <Route exact path='/' element={<Home />} />
         <Route path='/all-books' element={<AllBooks />} />
         <Route path='/about-us' element={<AboutUs />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path='/LogIn' element={<LogIn />} />
         <Route path='/updateBook/:id' element={<UpdateBook />} />
         <Route path='/Register' element={<Register />} />

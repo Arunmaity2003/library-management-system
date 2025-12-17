@@ -8,7 +8,7 @@ const Footer = () => {
         
         {/* Brand Section */}
         <div>
-          <h1 className="text-2xl font-bold mb-4">Library App</h1>
+          <h1 className="text-2xl font-bold mb-4">StoryNest</h1>
           <p className="text-zinc-400">
             Discover a world of knowledge with our vast collection of books.
           </p>
@@ -34,17 +34,10 @@ const Footer = () => {
             </Link>
 
             <Link 
-              to="/Cart" 
+              to="/contact" 
               className="text-zinc-400 hover:text-white transition-all duration-300"
             >
-              Cart
-            </Link>
-
-            <Link 
-              to="/Profile" 
-              className="text-zinc-400 hover:text-white transition-all duration-300"
-            >
-              Profile
+              Contact us
             </Link>
             
           </div>
@@ -54,7 +47,7 @@ const Footer = () => {
         <div className="flex flex-col justify-center items-center md:items-start">
           <h1 className="text-xl font-semibold mb-4">Developer</h1>
           <p className="text-xl font-medium">
-            &copy; 2025 | Made with <span className="text-red-500 animate-pulse">&hearts;</span> By Arun
+            &copy; 2025 | Made By Arun
           </p>
         </div>
       </div>

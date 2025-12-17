@@ -130,7 +130,9 @@ const AllOrders = () => {
             </div>
           </div>
 
-          {allOrders.map((items, i) => (
+          {allOrders
+          .filter(order => order && order.book) //------
+          .map((items, i) => (
             <div className="bg-zinc-800 w-full rounded py-2 px-4 flex gap-2 hover:bg-zinc-900 hover:cursor-pointer transition-all ">
               <div className="w-[3%]">
                 <h1 className="text-center">{i + 1}</h1>

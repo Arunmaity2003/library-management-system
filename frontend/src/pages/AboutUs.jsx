@@ -36,31 +36,6 @@ const AboutUs = () => {
           </div>
         </div>
 
-        {/* Developer Section */}
-        <div className="bg-zinc-800 p-8 rounded-lg shadow-lg mb-12">
-          <h2 className="text-2xl font-bold text-zinc-100 mb-6 text-center md:text-left">
-            About the Creator
-          </h2>
-          <div className="flex flex-col md:flex-row items-center gap-8">
-            {/* Placeholder for Profile Image - You can add an <img /> here */}
-            <div className="w-32 h-32 bg-zinc-700 rounded-full flex items-center justify-center text-4xl font-bold text-zinc-500">
-              A
-            </div>
-            
-            <div className="text-center md:text-left">
-              <h3 className="text-xl font-semibold text-blue-400">Arun</h3>
-              <p className="text-sm text-zinc-500 mb-4">Full Stack Developer</p>
-              <p className="text-zinc-400 leading-relaxed max-w-2xl">
-                I am a passionate developer dedicated to building intuitive and
-                efficient web applications. This Library Management System was
-                built using the MERN stack (MongoDB, Express, React, Node.js) to
-                showcase the synergy between robust backend architecture and
-                responsive frontend design.
-              </p>
-            </div>
-          </div>
-        </div>
-
         {/* Stats Section (Optional but looks professional) */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 text-center">
           <div className="p-6 bg-zinc-800 rounded hover:bg-zinc-700 transition-all duration-300">
